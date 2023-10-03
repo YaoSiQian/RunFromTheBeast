@@ -33,3 +33,7 @@
 ## 设置禁用指令
 
 在`plugins/BlockedCmds/config.yml`中设置，一行一个。
+
+## 设置全息文字
+
+在`plugins/HolographicDisplays/database.yml`中设置。

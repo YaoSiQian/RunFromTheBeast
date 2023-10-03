@@ -1,13 +1,13 @@
 welcome:
   location: lobby, 0.469, 79, -5.457
   lines:
-  - '&fWelcome to &e&lRun From The Beast'
-  - '&fThere are a total of &a&l{online} &fusers in &e&lRFTB'
+  - '&f欢迎来到&e&l虎口逃脱'
+  - '&f现在总共有 &a&l{online} &f个玩家正在&e&l逃脱中'
   - '&f'
   - '&fwww.servername.com'
-  - '&u&lHAVE FUN!'
+  - '&u&l玩的开心！'
 tops:
   location: lobby, 5.658, 76.200, -12.508
   lines:
-  - '&eTop &uWins &7              &eTop &uKills'
+  - '&e最高&u胜数 &7              &e最高&u击杀'
   - 'www.servername.com'
