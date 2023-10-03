@@ -33,7 +33,7 @@ bannerboards:
     configurable:
       renderers:
       - IMAGE -src image1.png -width 640 -height 256
-      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
+      - TEXT -text 欢迎 %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
   '5':
     internal:
       frames:
@@ -54,7 +54,7 @@ bannerboards:
     configurable:
       renderers:
       - IMAGE -src image2.png -width 640 -height 256
-      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
+      - TEXT -text 欢迎 %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
   '6':
     internal:
       frames:
@@ -75,4 +75,4 @@ bannerboards:
     configurable:
       renderers:
       - IMAGE -src image3.png -width 640 -height 256
-      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
+      - TEXT -text 欢迎 %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180

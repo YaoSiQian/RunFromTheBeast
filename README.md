@@ -21,3 +21,11 @@
 17. `/rftb admin addChestLocation NameMode attack` - 在地图末尾的箱子上看一眼并输入此命令
 18. `/rftb admin enable NameMode` - 启用你刚刚配置的地图
 19. 完成！无需重启。
+
+## 欢迎图片自定义
+
+可以通过模板 PSD 文件自定义。
+
+文件位于`plugins/BannerBoard/images/模板.psd`。
+
+修改完后可以在`plugins/BannerBoard/config.yml`中设置。
