@@ -55,12 +55,12 @@ commands:
   - testforblock
   - tellraw
 messages:
-  whitelist: '&4&l>> &cServer in maintenance'
-  unknown-command: '&4&l>> &cUnknown command'
-  server-full: '&4&l>> &cThe server is full!'
-  outdated-client: '&4&l>> &cThe server is loading, wait a moment'
-  outdated-server: '&4&l>> &cThe server is loading, wait a moment'
-  restart: '&4&l>> &cServer is restarting'
+  whitelist: '&4&l>> &c服务器维护中'
+  unknown-command: '&4&l>> &c未知指令'
+  server-full: '&4&l>> &c服务器已满！'
+  outdated-client: '&4&l>> &c服务器正在加载中，请稍等'
+  outdated-server: '&4&l>> &c服务器正在加载中，请稍等'
+  restart: '&4&l>> &c服务器正在重新启动'
 stats:
   disable-saving: false
   forced-stats: {}

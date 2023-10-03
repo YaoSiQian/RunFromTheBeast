@@ -21,7 +21,7 @@ settings:
   connection-throttle: -1
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: "\xc3\u201a\xc2\xa7cServer closed"
+  shutdown-message: "\xc3\u201a\xc2\xa7c服务器已关闭"
 spawn-limits:
   monsters: 70
   animals: 15
