@@ -29,3 +29,7 @@
 文件位于`plugins/BannerBoard/images/模板.psd`。
 
 修改完后可以在`plugins/BannerBoard/config.yml`中设置。
+
+## 设置禁用指令
+
+在`plugins/BlockedCmds/config.yml`中设置，一行一个。
