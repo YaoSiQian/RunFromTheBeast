@@ -1,9 +1,0 @@
-&8&m---------------------------------------------
-&f
-    &e&lRun From The Beast
-&f
-     &e› &fStore: &7&ostore.servername.com
-     &e› &fWeb: &7&oservername.com
-     &e› &fDiscord: &7&oinvite.gg/servername
-&f
-&8&m---------------------------------------------
