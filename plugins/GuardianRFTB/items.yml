@@ -1,0 +1,101 @@
+#   _____                     _ _               _____  ______ _______ ____
+#  / ____|                   | (_)             |  __ \|  ____|__   __|  _ \
+# | |  __ _   _  __ _ _ __ __| |_  __ _ _ __   | |__) | |__     | |  | |_) |
+# | | |_ | | | |/ _` | '__/ _` | |/ _` | '_ \  |  _  /|  __|    | |  |  _ <
+# | |__| | |_| | (_| | | | (_| | | (_| | | | | | | \ \| |       | |  | |_) |
+#  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
+lobby:
+  gameSelector:
+    toggle: true
+    item: PAPER
+    name: '&aGame Selector'
+    lore:
+    - '&ewww.servername.com'
+    slot: 0
+  Shop:
+    toggle: true
+    item: EMERALD
+    name: '&aRFTB Shop'
+    lore:
+    - '&ewww.servername.com'
+    slot: 4
+  PlayerSettings:
+    toggle: true
+    item: FIREWORK
+    name: '&aYour settings'
+    lore:
+    - '&ewww.servername.com'
+    slot: 1
+  LobbySelector:
+    toggle: true
+    item: BEACON
+    name: '&aLobby Selector'
+    lore:
+    - '&ewww.servername.com'
+    slot: 7
+  Exit:
+    toggle: true
+    item: RED_BED
+    name: '&aGo to the hub'
+    lore:
+    - '&ewww.servername.com'
+    slot: 8
+InGame:
+  RunnerKit:
+    item: PAPER
+    name: '&aKit Selector (&lRunners&a)'
+    lore:
+    - '&ewww.servername.com'
+    slot: 0
+  BeastKit:
+    item: PAPER
+    name: '&aKit Selector (&lBeast&a)'
+    lore:
+    - '&ewww.servername.com'
+    slot: 0
+  KillerKit:
+    item: PAPER
+    name: '&aKit Selector (&lKiller&a)'
+    lore:
+    - '&ewww.servername.com'
+    slot: 0
+  Exit:
+    item: RED_BED
+    name: '&aLeave'
+    lore:
+    - '&ewww.servername.com'
+    slot: 8
+  backCheckpointItem:
+    item: NETHER_STAR
+    name: '&b&lCheckpoint Back'
+    lore:
+    - '&eClick to back'
+playing:
+  beast-inventory:
+    Sword:
+      item: DIAMOND_SWORD
+      name: '&eBeast Sword'
+      lore:
+      - '&ewww.servername.com'
+      slot: 0
+  beast-armor:
+    Helmet:
+      item: DIAMOND_HELMET
+      name: '&eBeast Helmet'
+      lore:
+      - '&ewww.servername.com'
+    Chestplate:
+      item: DIAMOND_CHESTPLATE
+      name: '&eBeast Helmet'
+      lore:
+      - '&ewww.servername.com'
+    Leggings:
+      item: DIAMOND_LEGGINGS
+      name: '&eBeast Leggings'
+      lore:
+      - '&ewww.servername.com'
+    Boots:
+      item: DIAMOND_BOOTS
+      name: '&eBeast Boots'
+      lore:
+      - '&ewww.servername.com'

@@ -1,0 +1,322 @@
+# Citizens NPC Storage
+
+
+
+
+last-created-npc-id: 6
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: earthghg
+      cached-skin-uuid: fd6f34c1-3bfa-43d0-8381-c6ff193f7ac9
+    name: "\xc2\xa7aGame Selector"
+    uuid: 192295d5-df38-4211-a408-3c0eaf9bf9d6
+    traits:
+      type: PLAYER
+      location:
+        bodyYaw: 4.272461E-4
+        world: lobby
+        x: '0.4977'
+        y: '76.0'
+        z: '-22.3598'
+        yaw: '4.0E-4'
+        pitch: '5.1'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: LY4i918Xw69lKqbv1ORwHsPmF0m+g6ECymDRfVg1qpkXMzT6spaTgOV5iQdQNE8OyPdpxC8OnPeVS6BTdUvIte4LjdJO3FgDfNq1ENCELLLAeJqhVjKAURsMtBESxxhhTQp3oAiCPM+6d0KkA3jXReEOI0fFWVpH2+Hj33NDbLn8uSC8WTDh1IlOvIA4RtR1HDUAOpad7OfQK9l+vTmsIpsczVoWr+AjoutjZ6yiezSu8OUt6MLMtu4e7jwixYux/kDmf7VGypyiJRjy+FLUGCzqDetN4DQp8aI2TMigALPNLQh+UHKADppkgOwgRWwSi4d+cLGXQM9hloCdcl963o//dj61LYwMk0j2KrT1XsBXNOm+t1XDzQ/pJh04iqBloyNNb6mzCJvdVoqpps5XbAoD0sZ7jxKC5OzClkPpfee1IBx3T1bM9S9k4ysT6RbgWwZfTeMPqAlBUYIfa0NN5C2ID1ZC/hJahqBoDi+K8DpEwWF2qE+Clufz2+6D15vaqok2ZhQgLUChzdaYLwGK78BE6uLcn53qb5x2KKjEAkkl4w58VvOXVey712kO8OC24Lkd6+YAcnbGtPwRdobnaq6x0GmB5c75fENegdyn9T73SmY27jU5a0FDqbsTjwAWMaMjag7mUPchNZFBF7E4c9ZA8ulvbXsujXM1M+THNEQ=
+        skinName: earthghg
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyMjQ2ODY4NjQ2OCwKICAicHJvZmlsZUlkIiA6ICJmZDZmMzRjMTNiZmE0M2QwODM4MWM2ZmYxOTNmN2FjOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYXJ0aEdIRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGI1NmE0MWYzNDA4ZGRhNDY1ZmY4ZDg0ZmY0NzhiZDJjMzZjODA5NzY2ZjNkYmJhZTA3MTFmY2EzYjVjYWVmIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      scoreboardtrait: {}
+      inventory: {}
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+      owner:
+        uuid: 1747bcba-af7a-38b1-8425-5dcbf2491c47
+    traitnames: mounttrait,owner,type,scoreboardtrait,inventory,equipment,commandtrait,spawned,location,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    name: '&a%ajlb_lb_grftb_kills_2_name%'
+    uuid: 9e4e1e69-b492-4b2b-b4ec-f885beb5de5d
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        signature: AmnmeNqXFWBBsqRFgnf162TM+RZNzFMRou20hMCJJlmf4eIJncIZueYKv6ioG5c3Vk34hrzb8cZ2l80DfdO2PBqJptA1tygzKBx68emI0mhLriRTcV8DLY34PS0BR0eGvLI3oRgmq1uJqs4IOcBYbdXQrIf/cdcQAyogQ/Sdw6LJ4ix9BTPFkRqGhg+Q49KD3zD2J7U46F/UsOS0yWXl6NuNJ0xXf1sTlJltVxWQId2wZ2npM0PvAfL+Vhvey1d3zfwWX83RuevjjCaLUAYGrM9XzTfVvh6C3+PRAOMve59X9YwuZQaFlqDOUckapUEy/5hlWXOV0/jnHpfA7LKv4CPQqfl7Mn1m1YO/zK1J9ALoxsYZ2ot6rg9nbpfn6ffzdWgvBodDrqWj1GouJ153r0Za6fd60eoFBJIIHp1/8QikHr6HaiDwfxKZ3EA587Ed9a0cR3YzTcrBGgp+chBduKaZXfBQzoGwtSH4Q3abBnXyElbbfwKKrE9gl+n4NSIM+B73AgP2L9d8/Xrh9ot6a8BRvnCAmqVkDaMVTI5HuJpNm16EuxrfpEZuM8RgNjaYJ4mgqFXFobHSdBVYtN6E7XzsFLXMd0FjAqcoUyAy4RDglIgxJVmQgCaWCxm22j+EyTqNX4H5gvzcYUC69P6gmBp/CGvymL5TW0bD9LTFLZA=
+        skinName: '%ajlb_lb_grftb_kills_3_name%'
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNTM0MTU0MzY1NSwKICAicHJvZmlsZUlkIiA6ICI2M2ExM2NhYTYxZjY0ZDc1YmJjMTc3MjIxZGI1NTNkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaGlyc3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNjODE4Y2IxMmMwYzU0NGRjMjQ4ZTYwNDU2ZmZjODc2YjI3NzgzYjJjNzc1MGFkOGU4MGIxMDIyMjQ5ZTBlMSIKICAgIH0KICB9Cn0=
+      location:
+        bodyYaw: 135.71454
+        world: lobby
+        x: '6.4857'
+        y: '77.0'
+        z: '-9.4808'
+        yaw: '135.7145'
+        pitch: '6.8471'
+      type: PLAYER
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,inventory,hologramtrait,scoreboardtrait,equipment,spawned,location,skintrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+    metadata:
+      cached-skin-uuid-name: whirss
+      cached-skin-uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+  '5':
+    metadata:
+      cached-skin-uuid-name: whiron
+      cached-skin-uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    name: '&a%ajlb_lb_grftb_kills_1_name%'
+    uuid: ba824f96-e671-4747-bc75-69516d6ef6a8
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CyMI7U8TQVHvxfe1XYryxWpX3zm/wRvIac0Bz3V/ahzH/5bKY0LQ+1hpnew2+8c5izx7pyXSZL3NI4huau6Idu8n8ErL9EjWHnq8cazVE6tAcYw8102Ce6j8xLBqly+ATRSe4z35tkJYyJqJNueDlc0aPnPqONncuU6pQtlKRZ/kj09QhgVUaNMVyhqnTiYBcJfeVnUgbbQg9Ndf1vIRAmyzU5MrA5IpKy2KuFOSCaYvgdwDRoKf8IpEcETWyeGy5emYBoxd1RrMGmFw+vuImLZ3gkHmKRVJNTfdyW0RkWmZ1pcZorY6IHQrr4+JvxdPkA04zY+HzKr/pdCnHvUQLCZ0ku/LoDcJczA/o2gYN/EoKe2RtTRLwBX5i9Rg+bayk8rEOtXWgwK6pcx1lKriV5IynfJi6Nn5tPAZVjG2WrK02l0tQK9Vq4SoZV9rXRZQbqy9AHpkZpepTTr3exq1IjLfV6TyYpxx8uZ7TIgPYNOQRvANxtz8fplwscXSwYtCCWT77ZFKnwR/mpulqpMwTugitBkXpDeYLeLOxEIcIr6XiPBQwVY+A0CMT0tTxaobA+5vXFAzGEO0izmnWX2VnaTSlzx7tPqVJFYiJBUlrtnglnMGotUG+634p0wCUyn1flIg5CKFPDBlLXnYstSROZoOt6wkPa/jT+iGYetvi/o=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDcxNDg1MDUxOSwKICAicHJvZmlsZUlkIiA6ICI2M2ExM2NhYTYxZjY0ZDc1YmJjMTc3MjIxZGI1NTNkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaGlyb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhhZjdiMTEyOGYxNTRlNmYxNTEwOWQwNWE3OWZmMzhmOGNiNDRiZGNlNGRlNjMwNjVjMGRlMWI4ZjE3OTQ1ZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: '%ajlb_lb_grftb_kills_1_name%'
+      location:
+        bodyYaw: 120.31828
+        world: lobby
+        x: '7.5199'
+        y: '78.0'
+        z: '-10.5241'
+        yaw: '120.3183'
+        pitch: '18.4644'
+      type: PLAYER
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,hologramtrait,scoreboardtrait,inventory,equipment,spawned,location,skintrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    name: '&a%ajlb_lb_grftb_kills_3_name%'
+    uuid: 4b0ce25b-1ced-4ee3-890f-9e40ee520df8
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: '%ajlb_lb_grftb_kills_3_name%'
+      location:
+        bodyYaw: 106.83949
+        world: lobby
+        x: '8.4451'
+        y: '76.0'
+        z: '-11.4652'
+        yaw: '106.8395'
+        pitch: '-4.8885'
+      type: PLAYER
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,scoreboardtrait,hologramtrait,inventory,equipment,spawned,location,lookclose,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    name: '&a%ajlb_lb_grftb_wins_3_name%'
+    uuid: a047ac8a-5b1f-4bd7-9f8c-ade931f2c0d4
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+        skinName: '%ajlb_lb_grftb_wins_3_name%'
+      location:
+        bodyYaw: 83.30267
+        world: lobby
+        x: '8.3654'
+        y: '76.0'
+        z: '-13.49'
+        yaw: '83.3027'
+        pitch: '-4.8494'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,scoreboardtrait,inventory,hologramtrait,equipment,spawned,location,lookclose,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid-name: wins2
+      cached-skin-uuid: 04577ece-5510-4e6c-a482-903e0cafc521
+    name: '&a%ajlb_lb_grftb_wins_2_name%'
+    uuid: 390f67b7-f6e2-426a-a151-54b5074ebbae
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: g4UUgP/mKPEItKEkcKz0x8DuBdT+9pYXDNsnCg/7bqtlqGiblnuHdmyiaF7TpNPHWnb/Uj7QUthgeUz7vo2kNDOAhfhdmLCDqdYLIOaiT12tXnl6p4vx+fxaYKH8+9sAhomzWNd+/dcYqHMyJbLGolj7Oa4GpXvX5V4PMkZ0okOwqVQ2ViKbsrA8X11XPEc2ne1exrv3VF1TIIVjStJ+jRkOKH32mVN9zKt66IN64+4z9oHkk3sOFJQE108dR8q+T4LZh10Uy3jPxiOVqqfA/JkGcLrcezRn1nwK344tacdk1VB2M0TU6oH6N2K+nOjUOXKEBGucWtj4+AnwjJeve0SxUxKbbbkQG3dYHXzJB0GIIjzbLvOtQ6v/dxZjT/1yj857/9OlgKoGBCoFQIQaocY04fm8tyvwNtP4J8gqsLRQJdEGIl7xwwxoQeXbkZ8qRxbqROEPpYyNSsEEnh6VIJtXprjRXetJsQJI0gUIIsOHGkT054jKhDX7ZtZJelgdXABNbS1tSrlirvfZ2aiPaPlzmPuVTJx6TTD11HVhepwXuz1c+IvaTs8/zlfQ5CFHZDU5YZBqCaOPDkwSwjLozU/Vn0B5dIJ4GR/d67Ph692CFWEMhIewbyGkdi5HONqlG6NyHKWnbxrmmNwA4rM8Kkx0NPLCfWwK/nhfOT0sl4I=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYyNTM0MTIyNTg1MCwKICAicHJvZmlsZUlkIiA6ICIwNDU3N2VjZTU1MTA0ZTZjYTQ4MjkwM2UwY2FmYzUyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aW5zMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjYwYTFmNmQ1NjJmNTJhYWViYmYxNDM0ZjFkZTE0NzkzM2EzYWZmZTBlNzY0ZmE0OWVhMDU3NTM2NjIzY2QzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: '%ajlb_lb_grftb_wins_2_name%'
+      location:
+        bodyYaw: 59.98979
+        world: lobby
+        x: '6.4575'
+        y: '77.0'
+        z: '-15.4602'
+        yaw: '59.9898'
+        pitch: '6.7013'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,inventory,scoreboardtrait,hologramtrait,equipment,spawned,location,lookclose,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      cached-skin-uuid-name: whiron
+      cached-skin-uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    name: '&a%ajlb_lb_grftb_wins_1_name%'
+    uuid: 5cbb86f1-549d-4ebb-aa0b-7109d6b254b3
+    traits:
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: CyMI7U8TQVHvxfe1XYryxWpX3zm/wRvIac0Bz3V/ahzH/5bKY0LQ+1hpnew2+8c5izx7pyXSZL3NI4huau6Idu8n8ErL9EjWHnq8cazVE6tAcYw8102Ce6j8xLBqly+ATRSe4z35tkJYyJqJNueDlc0aPnPqONncuU6pQtlKRZ/kj09QhgVUaNMVyhqnTiYBcJfeVnUgbbQg9Ndf1vIRAmyzU5MrA5IpKy2KuFOSCaYvgdwDRoKf8IpEcETWyeGy5emYBoxd1RrMGmFw+vuImLZ3gkHmKRVJNTfdyW0RkWmZ1pcZorY6IHQrr4+JvxdPkA04zY+HzKr/pdCnHvUQLCZ0ku/LoDcJczA/o2gYN/EoKe2RtTRLwBX5i9Rg+bayk8rEOtXWgwK6pcx1lKriV5IynfJi6Nn5tPAZVjG2WrK02l0tQK9Vq4SoZV9rXRZQbqy9AHpkZpepTTr3exq1IjLfV6TyYpxx8uZ7TIgPYNOQRvANxtz8fplwscXSwYtCCWT77ZFKnwR/mpulqpMwTugitBkXpDeYLeLOxEIcIr6XiPBQwVY+A0CMT0tTxaobA+5vXFAzGEO0izmnWX2VnaTSlzx7tPqVJFYiJBUlrtnglnMGotUG+634p0wCUyn1flIg5CKFPDBlLXnYstSROZoOt6wkPa/jT+iGYetvi/o=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1NDcxNDg1MDUxOSwKICAicHJvZmlsZUlkIiA6ICI2M2ExM2NhYTYxZjY0ZDc1YmJjMTc3MjIxZGI1NTNkNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaGlyb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhhZjdiMTEyOGYxNTRlNmYxNTEwOWQwNWE3OWZmMzhmOGNiNDRiZGNlNGRlNjMwNjVjMGRlMWI4ZjE3OTQ1ZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: '%ajlb_lb_grftb_wins_1_name%'
+      location:
+        bodyYaw: 71.315735
+        world: lobby
+        x: '7.6066'
+        y: '78.0'
+        z: '-14.4507'
+        yaw: '71.3157'
+        pitch: '18.4331'
+      type: PLAYER
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      scoreboardtrait: {}
+      inventory: {}
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: 63a13caa-61f6-4d75-bbc1-77221db553d4
+    traitnames: mounttrait,owner,type,inventory,hologramtrait,scoreboardtrait,equipment,spawned,location,lookclose,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

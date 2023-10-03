@@ -1,0 +1,157 @@
+#   _____                     _ _               _____  ______ _______ ____
+#  / ____|                   | (_)             |  __ \|  ____|__   __|  _ \
+# | |  __ _   _  __ _ _ __ __| |_  __ _ _ __   | |__) | |__     | |  | |_) |
+# | | |_ | | | |/ _` | '__/ _` | |/ _` | '_ \  |  _  /|  __|    | |  |  _ <
+# | |__| | |_| | (_| | | | (_| | | (_| | | | | | | \ \| |       | |  | |_) |
+#  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
+settings:
+  update-check: false
+  language: en
+  default-kits:
+    toggle: true
+    runner: 0
+    beast: 0
+    killer: 0
+  leaveCMDs:
+  - /leave
+  - /quit
+  - /salir
+  dateFormat: dd/MM/yyyy
+  perWorldTab: true
+  leaveCancelTime: 3
+  lobby:
+    location: lobby,0.5167398490722768,76.0,0.48117617674284396,179.5501,-0.74999344
+    chat: false
+    show-all-players: false
+    bossBar: true
+    actionBar: true
+    cancelDamage: true
+    blockInventoryClick: true
+    noHunger: true
+    disableWeather: true
+    cancelBlockPlace: true
+    cancelBlockBreak: true
+    voidSpawnTP: true
+    scoreboard-only-in-lobby-world: false
+    items-only-in-lobby-world: false
+    join:
+      teleport: true
+      autoHeal: true
+      clearInventory: true
+      gamemode: ADVENTURE
+      message: false
+    quit:
+      message: false
+      statics: false
+    Hub-servers:
+    - Hub1
+    - Hub2
+  pointSystem:
+    runners:
+      death: -6
+      win: 4
+      kill: 2
+    beasts:
+      death: -4
+      win: 4
+      kill: 1
+  tags:
+    runners:
+      toggle: true
+      tag: '&b&lRUNNER'
+    beasts:
+      toggle: true
+      tag: '&c&lBEAST'
+    killer:
+      toggle: true
+      tag: '&a&lKILLER'
+  signs:
+    line1: '&l%arena%'
+    line2: '%gameStatus%'
+    line3: '%on%/%max%'
+    line4: '&nClick to join'
+  status:
+    blocks:
+      toggle: false
+      preparing: STAINED_GLASS:11
+      waiting: STAINED_GLASS:5
+      starting: STAINED_GLASS:4
+      playing: STAINED_GLASS:14
+      InGame: STAINED_GLASS:14
+      ending: STAINED_GLASS:0
+    color:
+      preparing: '&5Config'
+      waiting: '&aWaiting'
+      starting: '&eStarting'
+      playing: '&cPlaying'
+      InGame: '&4InGame'
+      ending: '&9Restarting'
+    names:
+      preparing: Preparing
+      waiting: Waiting
+      starting: Starting
+      playing: Playing
+      InGame: InGame
+      ending: Restarting
+  game:
+    show-game-buttons-on-end: false
+    beastDistance:
+      toggle: true
+      Format: BOSSBAR
+    commands:
+      toggle: true
+      type: WHITELIST
+      list:
+      - leave
+      - salir
+      - rftb
+      - grftb
+      - lobby
+      - hub
+      - exit
+    game-actions:
+      win-actions:
+        toggle: false
+        values:
+        - <console>eco give <player_name> 100
+      end-actions:
+        toggle: false
+        values:
+        - <actionbar>&aWell played!
+      restart-actions:
+        toggle: false
+        values:
+        - <actionbar>&bGood Luck for your next game!
+      start-actions:
+        toggle: false
+        values:
+        - <msg>&a&lGood Luck!
+      selected-beast-actions:
+        toggle: false
+        values:
+        - <actionbar>&c<arena_beast> was selected!
+    roles:
+      beast: Beast
+      beasts: Beasts
+      runner: Runner
+      runners: Runners
+      killer: Killer
+      killers: Killers
+    modes:
+      DOUBLE_BEAST: Double Beast
+      CLASSIC: Classic
+      INFECTED: Infected
+      KILLER: Killer Mode
+      ISLAND_OF_THE_BEAST: Island of the beast
+      ISLAND_OF_THE_BEAST_DOUBLE: Island of the beast Double
+      ISLAND_OF_THE_BEAST_KILLER: Island of the beast Killer
+      HISTORY_MODE: History Mode
+  timer:
+    weeks: weeks
+    week: week
+    days: days
+    day: day
+    minutes: minutes
+    minute: minute
+    seconds: seconds
+    second: second

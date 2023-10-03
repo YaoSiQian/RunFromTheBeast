@@ -1,0 +1,49 @@
+#   _____                     _ _               _____  ______ _______ ____
+#  / ____|                   | (_)             |  __ \|  ____|__   __|  _ \
+# | |  __ _   _  __ _ _ __ __| |_  __ _ _ __   | |__) | |__     | |  | |_) |
+# | | |_ | | | |/ _` | '__/ _` | |/ _` | '_ \  |  _  /|  __|    | |  |  _ <
+# | |__| | |_| | (_| | | | (_| | | (_| | | | | | | \ \| |       | |  | |_) |
+#  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
+sounds:
+  game:
+    checkpoint-use:
+      toggle: true
+      volume: 1.0F
+      pitch: 2.0F
+      sound: WITHER_SPAWN
+    checkpoint-place:
+      toggle: true
+      volume: 1.0F
+      pitch: 0.5F
+      sound: NOTE_PLING
+    win:
+      toggle: true
+      volume: 1.0F
+      pitch: 0.5F
+      sound: WITHER_SPAWN
+    kill:
+      toggle: true
+      volume: 1.0F
+      pitch: 0.5F
+      sound: WITHER_DEATH
+    death:
+      toggle: true
+      volume: 1.0F
+      pitch: 0.5F
+      sound: WITHER_DEATH
+    count:
+      starting:
+        toggle: true
+        volume: 1.0F
+        pitch: 0.5F
+        sound: NOTE_STICKS
+      beast-appear:
+        toggle: true
+        volume: 0.5F
+        pitch: 0.5F
+        sound: ENDERDRAGON_GROWL
+      selecting:
+        toggle: true
+        volume: 1.0F
+        pitch: 0.5F
+        sound: ORB_PICKUP

@@ -1,0 +1,104 @@
+#   _____                     _ _               _____  ______ _______ ____
+#  / ____|                   | (_)             |  __ \|  ____|__   __|  _ \
+# | |  __ _   _  __ _ _ __ __| |_  __ _ _ __   | |__) | |__     | |  | |_) |
+# | | |_ | | | |/ _` | '__/ _` | |/ _` | '_ \  |  _  /|  __|    | |  |  _ <
+# | |__| | |_| | (_| | | | (_| | | (_| | | | | | | \ \| |       | |  | |_) |
+#  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
+scoreboards:
+  animatedTitle:
+    toggle: false
+    repeatTime: 5
+    titles:
+    - '&e&lRFTB'
+    - '&f&lRFTB'
+    - '&e&lRFTB'
+    - '&f&lRFTB'
+    - '&e&lRFTB'
+    - '&f&lRFTB'
+    - '&f&lR&e&lFTB'
+    - '&f&lRF&e&lTB'
+    - '&e&lR&f&lFT&e&lB'
+    - '&e&lRF&f&lTB'
+    - '&e&lRFT&f&lB'
+    - '&e&lRFTB'
+  lobby:
+    toggle: true
+    title: '&e&lRFTB'
+    lines:
+    - ' '
+    - 'User: &b<player_name>'
+    - 'Coins: &b<player_coins>'
+    - 'Wins: &b<player_wins>'
+    - ' '
+    - 'Kits: &b<player_kits>/1'
+    - ' '
+    - 'Online: &b<server_online>'
+    - ' '
+    - '&ewww.servername.com'
+  waiting:
+    title: '&e&lRFTB'
+    lines:
+    - '&7<arena_mode> | <timeFormat>'
+    - ' '
+    - 'Map: &a<arena_name>'
+    - 'Players: &a<arena_online>/<arena_max>'
+    - ' '
+    - <isWaiting>Waiting for
+    - '&a<isWaiting><arena_need> &fplayers to start'
+    - '<isSelecting>Beast: &a<arena_time_number>'
+    - '<isStarting>Start: &a<arena_time_number> &f<arena_time_text>.'
+    - '<BeastAppear>Spawn: &a<arena_time_number>&f!'
+    - ' '
+    - '&ewww.servername.com'
+  playing:
+    title: '&e&lRFTB'
+    lines:
+    - '&7<timeFormat>'
+    - ' '
+    - 'Runners Left: &a<arena_runners>'
+    - 'Time Left: &a<arena_timeLeft>'
+    - ' '
+    - 'Map: &a<arena_name>'
+    - 'Role: &a<player_role>'
+    - ' '
+    - 'Beast: &a<arena_beast>'
+    - 'Mode: &c<arena_mode>'
+    - ' '
+    - '&ewww.servername.com'
+  beastWin:
+    forBeast:
+      title: '&e&lRFTB'
+      lines:
+      - '&7<timeFormat>'
+      - ' '
+      - You are the best beast
+      - '&aWell played&f!'
+      - ' '
+      - '&ewww.servername.com'
+    forRunners:
+      title: '&e&lRFTB'
+      lines:
+      - '&7<timeFormat>'
+      - ' '
+      - Well.. you tried
+      - ' '
+      - '&ewww.servername.com'
+  runnersWin:
+    forBeast:
+      title: '&e&lRFTB'
+      lines:
+      - '&7<timeFormat>'
+      - ' '
+      - Bad played!
+      - '&cGood luck for next game&f!'
+      - ' '
+      - '&ewww.servername.com'
+    forRunners:
+      title: '&e&lRFTB'
+      lines:
+      - '&7<timeFormat>'
+      - ' '
+      - Runners Win!
+      - '&aWell played!'
+      - ' '
+      - '&ewww.servername.com'

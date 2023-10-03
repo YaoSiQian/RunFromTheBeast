@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1654714933042
+  login: 1654714826207
+money: '0'
+last-account-name: Whiron
+logoutlocation:
+  world: 01674968-fcac-4c05-8346-5166a2a40c8d
+  world-name: lobby
+  x: -2.3075899061740213
+  y: 75.0
+  z: -14.300000011920929
+  yaw: 287.4006652832031
+  pitch: 22.1999568939209

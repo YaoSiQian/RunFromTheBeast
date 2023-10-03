@@ -1,0 +1,78 @@
+# This is the BannerBoard configuration
+# Make sure to always make a backup of this file before making any changes!
+# Made by BigTeddy98
+# 
+# Every BannerBoard has some internal settings stored in this file.
+# Please do not make any changes to whatever is in the internal section.
+
+lastUsedId: 6
+idrange:
+  startid: 22000
+  amount: 5000
+color_palette: color_palette_v1_8_R1.bc
+skinserver: http://www.skinrender.com:2798/
+skinrender_key: INSERT_SKINRENDER_KEY_HERE
+bannerboards:
+  '4':
+    internal:
+      frames:
+      - lobby_-2.0_77.0_-30.0_0.0_0.0
+      - lobby_-2.0_76.0_-30.0_0.0_0.0
+      - lobby_-1.0_77.0_-30.0_0.0_0.0
+      - lobby_-1.0_76.0_-30.0_0.0_0.0
+      - lobby_0.0_77.0_-30.0_0.0_0.0
+      - lobby_0.0_76.0_-30.0_0.0_0.0
+      - lobby_1.0_77.0_-30.0_0.0_0.0
+      - lobby_1.0_76.0_-30.0_0.0_0.0
+      - lobby_2.0_77.0_-30.0_0.0_0.0
+      - lobby_2.0_76.0_-30.0_0.0_0.0
+      facing: NORTH
+      width: 5
+      height: 2
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src image1.png -width 640 -height 256
+      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
+  '5':
+    internal:
+      frames:
+      - lobby_-7.0_77.0_-21.0_0.0_0.0
+      - lobby_-7.0_76.0_-21.0_0.0_0.0
+      - lobby_-7.0_77.0_-22.0_0.0_0.0
+      - lobby_-7.0_76.0_-22.0_0.0_0.0
+      - lobby_-7.0_77.0_-23.0_0.0_0.0
+      - lobby_-7.0_76.0_-23.0_0.0_0.0
+      - lobby_-7.0_77.0_-24.0_0.0_0.0
+      - lobby_-7.0_76.0_-24.0_0.0_0.0
+      - lobby_-7.0_77.0_-25.0_0.0_0.0
+      - lobby_-7.0_76.0_-25.0_0.0_0.0
+      facing: WEST
+      width: 5
+      height: 2
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src image2.png -width 640 -height 256
+      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180
+  '6':
+    internal:
+      frames:
+      - lobby_7.0_77.0_-25.0_0.0_0.0
+      - lobby_7.0_76.0_-25.0_0.0_0.0
+      - lobby_7.0_77.0_-24.0_0.0_0.0
+      - lobby_7.0_76.0_-24.0_0.0_0.0
+      - lobby_7.0_77.0_-23.0_0.0_0.0
+      - lobby_7.0_76.0_-23.0_0.0_0.0
+      - lobby_7.0_77.0_-22.0_0.0_0.0
+      - lobby_7.0_76.0_-22.0_0.0_0.0
+      - lobby_7.0_77.0_-21.0_0.0_0.0
+      - lobby_7.0_76.0_-21.0_0.0_0.0
+      facing: EAST
+      width: 5
+      height: 2
+      rotation: 0
+    configurable:
+      renderers:
+      - IMAGE -src image3.png -width 640 -height 256
+      - TEXT -text Welcome %name% -size 17 -font Arial -color 255,255,255 -strokeColor 0,0,0 -strokeThickness 0 -xOffset 240 -yOffset 180

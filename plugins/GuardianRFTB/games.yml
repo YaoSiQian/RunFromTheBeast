@@ -1,0 +1,856 @@
+games:
+  AdventureClassic:
+    enabled: true
+    time: 500
+    gameName: Adventure
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: AdventureClassic,14.498830654234192,87.0,121.48796054609682,1.0500163,4.950009
+      selected-beast: AdventureClassic,4.498455683920415,72.0,88.58900575476542,179.84998,2.2500086
+      beast: AdventureClassic,4.493246790379576,72.0,74.69799112517973,179.84998,2.2500086
+      runners: AdventureClassic,4.493246790379576,72.0,74.69799112517973,179.84998,2.2500086
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      attack:
+      - AdventureClassic,3.0,117.0,-151.0,0.0,0.0
+      armor:
+      - AdventureClassic,5.0,117.0,-151.0,0.0,0.0
+  AdventureInfected:
+    enabled: true
+    time: 500
+    gameName: Adventure
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: AdventureInfected,14.493566608905207,87.0,121.38144079020617,179.69977,1.4999584
+      selected-beast: AdventureInfected,4.442637924037038,72.0,88.51001826801412,180.14941,5.5499625
+      beast: AdventureInfected,4.448383787327979,72.0,74.52933373199457,180.14941,5.5499625
+      runners: AdventureInfected,4.448383787327979,72.0,74.52933373199457,180.14941,5.5499625
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - AdventureInfected,3.0,117.0,-151.0,0.0,0.0
+      attack:
+      - AdventureInfected,5.0,117.0,-151.0,0.0,0.0
+  BeastCaveClassic:
+    enabled: true
+    time: 500
+    gameName: BeastCave
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: BeastCaveClassic,-29.488920777387523,88.0,-139.60212590443274,-89.99976,5.3999605
+      selected-beast: BeastCaveClassic,3.553713767442598,87.0,-139.55217834672482,88.200294,1.0499505
+      beast: BeastCaveClassic,-2.418483296317394,82.0,-58.41926947134548,-359.84958,1.1999635
+      runners: BeastCaveClassic,-2.418483296317394,82.0,-58.41926947134548,-359.84958,1.1999635
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - BeastCaveClassic,5.0,95.0,91.0,0.0,0.0
+      attack:
+      - BeastCaveClassic,-11.0,95.0,91.0,0.0,0.0
+  BeastCaveInfected:
+    enabled: true
+    time: 500
+    gameName: BeastCave
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: BeastCaveInfected,-24.474573541246194,87.0,-139.4913162078657,-90.749756,3.4499614
+      selected-beast: BeastCaveInfected,8.394707664580869,86.0,-139.50939919724894,-269.5495,1.7999768
+      beast: BeastCaveInfected,-2.4725507634905757,82.0,-58.34886706992402,-358.64944,-1.6500039
+      runners: BeastCaveInfected,-2.4725507634905757,82.0,-58.34886706992402,-358.64944,-1.6500039
+    signs: []
+    chests:
+    - armor
+    - attack
+  DamnedTunnelsClassic:
+    enabled: true
+    time: 500
+    gameName: DamnedTunnels
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: DamnedTunnelsClassic,16.52274947520901,104.0,-24.465892901954593,89.2501,10.199996
+      selected-beast: DamnedTunnelsClassic,-1.5372171789831321,102.0,-24.48660287423999,268.80005,3.299976
+      beast: DamnedTunnelsClassic,5.146142806158508,131.5,-47.464317885811326,88.50122,-2.7000148
+      runners: DamnedTunnelsClassic,5.146142806158508,131.5,-47.464317885811326,88.50122,-2.7000148
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - DamnedTunnelsClassic,3.0,164.0,66.0,0.0,0.0
+      attack:
+      - DamnedTunnelsClassic,3.0,164.0,76.0,0.0,0.0
+  DamnedTunnelsInfected:
+    enabled: true
+    time: 500
+    gameName: DamnedTunnels
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: DamnedTunnelsInfected,19.50877836703395,103.0,-24.469873591932753,-269.55066,3.14985
+      selected-beast: DamnedTunnelsInfected,-1.5695154338099127,102.0,-24.453724912297183,-86.847275,3.8998513
+      beast: DamnedTunnelsInfected,4.6452761047430835,131.5,-47.57675987536341,90.15265,0.44984272
+      runners: DamnedTunnelsInfected,4.6452761047430835,131.5,-47.57675987536341,90.15265,0.44984272
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - DamnedTunnelsInfected,3.0,164.0,76.0,0.0,0.0
+      attack:
+      - DamnedTunnelsInfected,3.0,164.0,66.0,0.0,0.0
+  FloranaClassic:
+    enabled: true
+    time: 500
+    gameName: Florana
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: FloranaClassic,78.54861005754223,88.0,140.4597627093598,88.950165,-0.4501464
+      selected-beast: FloranaClassic,55.3723140397593,87.0,140.54457727673568,267.3001,-3.900161
+      beast: FloranaClassic,-72.64202751527975,81.0,-96.95297664749093,-82.35017,11.2499695
+      runners: FloranaClassic,-72.64202751527975,81.0,-96.95297664749093,-82.35017,11.2499695
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - FloranaClassic,-53.0,81.0,1.0,0.0,0.0
+      attack:
+      - FloranaClassic,-53.0,82.0,0.0,0.0,0.0
+  FloranaInfected:
+    enabled: true
+    time: 500
+    gameName: Florana
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: FloranaInfected,76.89886926809717,88.0,140.65583314741377,89.69985,-1.0499887
+      selected-beast: FloranaInfected,55.38778745605839,87.0,140.43225902179276,271.19986,3.3000045
+      beast: FloranaInfected,-71.67341978103437,81.0,-100.55753664269362,-67.57679,-1.0206233
+      runners: FloranaInfected,-71.67341978103437,81.0,-100.55753664269362,-67.57679,-1.0206233
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - FloranaInfected,-53.0,81.0,1.0,0.0,0.0
+      attack:
+      - FloranaInfected,-53.0,82.0,0.0,0.0,0.0
+  IslandWorldClassic:
+    enabled: true
+    time: 500
+    gameName: IslandWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: IslandWorldClassic,-30.47900983832605,113.0,28.065393959276022,-325.7998,8.700086
+      selected-beast: IslandWorldClassic,-34.845464736333284,113.0,34.86067996424075,-91.34979,4.6500826
+      beast: IslandWorldClassic,43.30572387343723,132.0,68.04638723177936,-235.94942,6.3000655
+      runners: IslandWorldClassic,43.30572387343723,132.0,68.04638723177936,-235.94942,6.3000655
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - IslandWorldClassic,14.0,118.0,-96.0,0.0,0.0
+      attack:
+      - IslandWorldClassic,23.0,118.0,-80.0,0.0,0.0
+      - IslandWorldClassic,23.0,118.0,-80.0,0.0,0.0
+      - IslandWorldClassic,23.0,118.0,-84.0,0.0,0.0
+      - IslandWorldClassic,23.0,118.0,-80.0,0.0,0.0
+      - IslandWorldClassic,23.0,118.0,-80.0,0.0,0.0
+      - IslandWorldClassic,23.0,118.0,-80.0,0.0,0.0
+  IslandWorldInfected:
+    enabled: true
+    time: 500
+    gameName: IslandWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: IslandWorldInfected,-29.829672056650026,113.0,27.177298062938824,-309.90005,6.450015
+      selected-beast: IslandWorldInfected,-35.01455595053419,113.0,35.096254799370726,-140.10016,1.500011
+      beast: IslandWorldInfected,42.014723222270774,132.0,68.09416891907034,-247.80072,5.9999723
+      runners: IslandWorldInfected,42.014723222270774,132.0,68.09416891907034,-247.80072,5.9999723
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - IslandWorldInfected,14.0,118.0,-96.0,0.0,0.0
+      attack:
+      - IslandWorldInfected,23.0,118.0,-80.0,0.0,0.0
+  LevelsWorldClassic:
+    enabled: true
+    time: 500
+    gameName: LevelsWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: LevelsWorldClassic,-15.562218391355414,74.0,-8.39749549336277,179.99957,3.4499884
+      selected-beast: LevelsWorldClassic,-22.46994277351053,73.0,3.992968443100338,271.05023,5.0999794
+      beast: LevelsWorldClassic,-16.496123347169004,72.0,4.548806864332762,359.25073,-3.90002
+      runners: LevelsWorldClassic,-16.496123347169004,72.0,4.548806864332762,359.25073,-3.90002
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - LevelsWorldClassic,4.0,121.0,17.0,0.0,0.0
+      attack:
+      - LevelsWorldClassic,4.0,121.0,5.0,0.0,0.0
+  LevelsWorldInfected:
+    enabled: true
+    time: 500
+    gameName: LevelsWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: LevelsWorldInfected,-15.513690079842124,74.0,-8.452889186425462,182.5498,2.1000268
+      selected-beast: LevelsWorldInfected,-21.94370760226419,73.0,4.009708153309687,270.59995,4.9500303
+      beast: LevelsWorldInfected,-16.40698782500388,72.0,4.351916962379282,1.349791,7.050027
+      runners: LevelsWorldInfected,-16.40698782500388,72.0,4.351916962379282,1.349791,7.050027
+    signs: []
+    chests:
+    - armor
+    - attack
+  MinesClassic:
+    enabled: true
+    time: 500
+    gameName: Mines
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: MinesClassic,-89.48986855051035,111.0,-52.494439074762845,-1.4997253,-1.6500193
+      selected-beast: MinesClassic,-89.48986855051035,115.0,-52.494439074762845,-1.4997253,-1.6500193
+      beast: MinesClassic,8.248439906810718,102.0,-53.868930525727976,-295.94968,7.4999905
+      runners: MinesClassic,8.248439906810718,102.0,-53.868930525727976,-295.94968,7.4999905
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - MinesClassic,12.0,76.0,142.0,0.0,0.0
+      attack:
+      - MinesClassic,11.0,76.0,146.0,0.0,0.0
+  MinesInfected:
+    enabled: true
+    time: 500
+    gameName: Mines
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: MinesInfected,-89.43031387002061,111.0,-52.49234363331719,-0.74993724,2.5499601
+      selected-beast: MinesInfected,-89.43031387002061,115.0,-52.49234363331719,-0.74993724,2.5499601
+      beast: MinesInfected,6.7083148613829335,102.0,-53.147391152014094,56.39999,13.649979
+      runners: MinesInfected,6.7083148613829335,102.0,-53.147391152014094,56.39999,13.649979
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - MinesInfected,11.0,76.0,142.0,0.0,0.0
+      attack:
+      - MinesInfected,13.0,76.0,146.0,0.0,0.0
+  PaintClassic:
+    enabled: true
+    time: 500
+    gameName: Paint
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: PaintClassic,0.5525216351693762,152.0,-1.5950146859605092,-89.100044,7.0499983
+      selected-beast: PaintClassic,0.6341929180957006,156.0,-1.5054181610722135,-270.3,14.5499935
+      beast: PaintClassic,-17.58031217996971,92.0,73.66648814632435,180.74994,5.8499756
+      runners: PaintClassic,-17.58031217996971,92.0,73.66648814632435,180.74994,5.8499756
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - PaintClassic,-2.0,104.0,-118.0,0.0,0.0
+      attack:
+      - PaintClassic,2.0,104.0,-118.0,0.0,0.0
+  PaintInfected:
+    enabled: true
+    time: 500
+    gameName: Paint
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: PaintInfected,0.5593300084040995,152.0,-1.5626479692848292,-268.0501,8.999986
+      selected-beast: PaintInfected,0.5593300084040995,156.0,-1.5626479692848292,-268.0501,8.999986
+      beast: PaintInfected,-17.519749802388134,92.0,73.64498657976628,-173.10016,19.799925
+      runners: PaintInfected,-17.519749802388134,92.0,73.64498657976628,-173.10016,19.799925
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - PaintInfected,-2.0,104.0,-118.0,0.0,0.0
+      attack:
+      - PaintInfected,2.0,104.0,-118.0,0.0,0.0
+  SkyescapeClassic:
+    enabled: true
+    time: 500
+    gameName: Skyescape
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SkyescapeClassic,11.751932945902489,121.0,56.33247088179256,-316.04874,6.4500113
+      selected-beast: SkyescapeClassic,19.05531315673958,118.5,49.82529050819774,-309.7488,1.5000218
+      beast: SkyescapeClassic,-69.29940957166218,157.0,-44.55918148910465,-357.29962,10.800034
+      runners: SkyescapeClassic,-69.47462124840236,157.0,-44.7499012296145,-358.9496,10.0500345
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SkyescapeClassic,-4.0,207.0,-35.0,0.0,0.0
+      attack:
+      - SkyescapeClassic,-4.0,207.0,-23.0,0.0,0.0
+  SkyescapeInfected:
+    enabled: true
+    time: 500
+    gameName: Skyescape
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SkyescapeInfected,11.493174103353457,121.0,56.69221607160757,-144.2997,14.700036
+      selected-beast: SkyescapeInfected,18.94198578267916,118.5,48.896644420683344,-317.69974,-1.7999697
+      beast: SkyescapeInfected,-69.3111072062903,157.0,-44.50055295812953,0.30011106,9.750032
+      runners: SkyescapeInfected,-69.3111072062903,157.0,-44.50055295812953,0.30011106,9.750032
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SkyescapeInfected,-4.0,207.0,-35.0,0.0,0.0
+      attack:
+      - SkyescapeInfected,-4.0,207.0,-23.0,0.0,0.0
+  AdventureDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Adventure
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: AdventureDoubleBeast,14.351576360957155,87.0,121.45361531862233,88.372375,3.8999996
+      selected-beast: AdventureDoubleBeast,4.551369212911833,72.0,88.75817247894676,-182.07771,4.49997
+      beast: AdventureDoubleBeast,4.471374012175385,72.0,74.4402307482099,-181.92773,7.7999744
+      runners: AdventureDoubleBeast,4.471374012175385,72.0,74.4402307482099,-181.92773,7.7999744
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - AdventureDoubleBeast,3.0,117.0,-148.0,0.0,0.0
+      - AdventureDoubleBeast,3.0,117.0,-151.0,0.0,0.0
+      attack:
+      - AdventureDoubleBeast,5.0,117.0,-148.0,0.0,0.0
+      - AdventureDoubleBeast,5.0,117.0,-151.0,0.0,0.0
+  BeastCaveDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: BeastCave
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: BeastCaveDoubleBeast,-18.54067109184336,86.0,-140.52356140656565,-89.84946,6.0000014
+      selected-beast: BeastCaveDoubleBeast,14.413325332721236,85.0,-140.54112009222595,-271.94928,2.5499957
+      beast: BeastCaveDoubleBeast,-2.448359025088822,82.0,-58.25833353736458,-359.69946,0.14997777
+      runners: BeastCaveDoubleBeast,-2.5728011978048495,82.0,-58.57478889713555,-0.5991821,9.449976
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - BeastCaveDoubleBeast,5.0,95.0,91.0,0.0,0.0
+      attack:
+      - BeastCaveDoubleBeast,-11.0,95.0,91.0,0.0,0.0
+  DamnedTunnelsDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: DamnedTunnels
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: DamnedTunnelsDoubleBeast,19.442281846147793,103.0,-24.44588813773331,90.00044,1.0499842
+      selected-beast: DamnedTunnelsDoubleBeast,-1.5976580974710188,102.0,-24.554281486248396,-89.99952,-3.326535E-5
+      beast: DamnedTunnelsDoubleBeast,4.65656028465674,131.5,-47.42347880341561,89.40018,2.9999385
+      runners: DamnedTunnelsDoubleBeast,4.65656028465674,131.5,-47.42347880341561,89.40018,2.9999385
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - DamnedTunnelsDoubleBeast,3.0,164.0,76.0,0.0,0.0
+      attack:
+      - DamnedTunnelsDoubleBeast,3.0,164.0,66.0,0.0,0.0
+  FloranaDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Florana
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: FloranaDoubleBeast,78.05171644764192,88.0,140.677971131815,90.60068,5.3999705
+      selected-beast: FloranaDoubleBeast,55.69787687636476,87.0,140.5604758545515,270.1508,3.8999734
+      beast: FloranaDoubleBeast,-72.02562702059834,81.0,-98.0436497669847,276.15125,6.4499774
+      runners: FloranaDoubleBeast,-72.02562702059834,81.0,-98.0436497669847,276.15125,6.4499774
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - FloranaDoubleBeast,-53.0,81.0,1.0,0.0,0.0
+      attack:
+      - FloranaDoubleBeast,-53.0,82.0,0.0,0.0,0.0
+  IslandWorldDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: IslandWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: IslandWorldDoubleBeast,-29.584334826131137,113.0,24.66798059736468,-324.44995,10.049995
+      selected-beast: IslandWorldDoubleBeast,-34.939409819899765,113.0,35.0065057167122,-89.69971,1.8000089
+      beast: IslandWorldDoubleBeast,42.58559443831426,132.0,67.80388854118816,-247.349,7.05001
+      runners: IslandWorldDoubleBeast,42.58559443831426,132.0,67.80388854118816,-247.349,7.05001
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - IslandWorldDoubleBeast,14.0,118.0,-96.0,0.0,0.0
+      attack:
+      - IslandWorldDoubleBeast,23.0,118.0,-80.0,0.0,0.0
+  LevelsWorldDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: LevelsWorld
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: LevelsWorldDoubleBeast,-15.563261528512452,74.0,-8.399818982324742,-0.4496765,3.6000116
+      selected-beast: LevelsWorldDoubleBeast,-22.172169819157347,73.0,3.9975671451246955,269.40042,9.59999
+      beast: LevelsWorldDoubleBeast,-16.472507998552324,72.0,4.355238359523675,0.90036964,1.800004
+      runners: LevelsWorldDoubleBeast,-16.472507998552324,72.0,4.355238359523675,0.90036964,1.800004
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - LevelsWorldDoubleBeast,4.0,121.0,17.0,0.0,0.0
+      attack:
+      - LevelsWorldDoubleBeast,4.0,121.0,5.0,0.0,0.0
+  MinesDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Mines
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: MinesDoubleBeast,-89.51514236417468,111.0,-52.58222591364716,-1.0497377,-1.3500074
+      selected-beast: MinesDoubleBeast,-89.51514236417468,115.0,-52.55744301929191,-1.0497377,-1.3500074
+      beast: MinesDoubleBeast,10.563871545195987,102.0,-53.92263661066907,70.50029,5.6999936
+      runners: MinesDoubleBeast,10.563871545195987,102.0,-53.92263661066907,70.50029,5.6999936
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - MinesDoubleBeast,11.0,76.0,142.0,0.0,0.0
+      attack:
+      - MinesDoubleBeast,12.0,76.0,146.0,0.0,0.0
+  PaintDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Paint
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: PaintDoubleBeast,0.42401800310599075,152.0,-1.878318827982532,181.04996,9.600001
+      selected-beast: PaintDoubleBeast,0.5723676137810467,156.0,-1.4551108772016335,-0.1500636,7.5000253
+      beast: PaintDoubleBeast,-17.517045072331108,92.0,73.43191255040604,181.34993,10.800061
+      runners: PaintDoubleBeast,-17.517045072331108,92.0,73.43191255040604,181.34993,10.800061
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - PaintDoubleBeast,-2.0,104.0,-118.0,0.0,0.0
+      attack:
+      - PaintDoubleBeast,2.0,104.0,-118.0,0.0,0.0
+  SkyescapeDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Skyescape
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SkyescapeDoubleBeast,11.474858082973741,121.0,56.61810379056869,212.11641,22.674778
+      selected-beast: SkyescapeDoubleBeast,18.46166481092437,118.5,48.895051592532404,39.166412,-13.625218
+      beast: SkyescapeDoubleBeast,-69.4087611670265,157.0,-44.46027762008682,358.3662,5.5747924
+      runners: SkyescapeDoubleBeast,-69.4087611670265,157.0,-44.46027762008682,358.3662,5.5747924
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SkyescapeDoubleBeast,-4.0,207.0,-35.0,0.0,0.0
+      attack:
+      - SkyescapeDoubleBeast,-4.0,207.0,-23.0,0.0,0.0
+  SanctuaryClassic:
+    enabled: true
+    time: 500
+    gameName: Sanctuary
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SanctuaryClassic,27.599734855470697,122.0,104.62438130205157,-180.29996,1.0499996
+      selected-beast: SanctuaryClassic,27.469570439823492,122.0,99.2848417343205,-1.7998657,4.0499587
+      beast: SanctuaryClassic,-6.552892351378583,122.0,105.40087969345545,-179.24959,3.449964
+      runners: SanctuaryClassic,-6.552892351378583,122.0,105.40087969345545,-179.24959,3.449964
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SanctuaryClassic,63.0,130.0,-91.0,0.0,0.0
+      attack:
+      - SanctuaryClassic,64.0,131.0,-91.0,0.0,0.0
+  SanctuaryInfected:
+    enabled: true
+    time: 500
+    gameName: Sanctuary
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SanctuaryInfected,27.45508573132026,122.0,106.29288772769699,-180.90063,3.1498866
+      selected-beast: SanctuaryInfected,27.438059644887325,122.0,98.84854793555714,0.14920409,2.849904
+      beast: SanctuaryInfected,-6.3998300905223715,122.0,105.47713026768412,-179.70084,2.249876
+      runners: SanctuaryInfected,-6.3998300905223715,122.0,105.47713026768412,-179.70084,2.249876
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SanctuaryInfected,63.0,130.0,-91.0,0.0,0.0
+      attack:
+      - SanctuaryInfected,64.0,131.0,-91.0,0.0,0.0
+  SanctuaryDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Sanctuary
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: SanctuaryDoubleBeast,27.499691638490223,122.0,106.48962638162129,179.24951,4.6500015
+      selected-beast: SanctuaryDoubleBeast,27.63696491986008,122.0,98.84267716792505,1.0498352,9.000002
+      beast: SanctuaryDoubleBeast,-6.52199540589315,122.0,105.7458127687044,180.74997,1.5000226
+      runners: SanctuaryDoubleBeast,-6.52199540589315,122.0,105.7458127687044,180.74997,1.5000226
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - SanctuaryDoubleBeast,63.0,130.0,-91.0,0.0,0.0
+      attack:
+      - SanctuaryDoubleBeast,64.0,131.0,-91.0,0.0,0.0
+  VillainClassic:
+    enabled: true
+    time: 500
+    gameName: Villain
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: CLASSIC
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: VillainClassic,-15.573548048047002,163.0,3.4985929834236353,-269.69955,1.1999619
+      selected-beast: VillainClassic,-15.496195097323898,167.0,3.5105024170695582,-179.39937,2.9999774
+      beast: VillainClassic,-68.40363357197226,115.0,3.5051299781446223,-90.44942,2.9999466
+      runners: VillainClassic,-68.40363357197226,115.0,3.5051299781446223,-90.44942,2.9999466
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - VillainClassic,79.0,156.0,20.0,0.0,0.0
+      attack:
+      - VillainClassic,79.0,156.0,24.0,0.0,0.0
+  VillainInfected:
+    enabled: true
+    time: 500
+    gameName: Villain
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: INFECTED
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: VillainInfected,-15.33614718235977,163.0,3.5853302839354484,269.40036,7.799994
+      selected-beast: VillainInfected,-15.453839529546697,167.0,3.483122396020704,269.25027,10.0499935
+      beast: VillainInfected,-68.54461091031519,115.0,3.445220569140286,271.04974,5.999879
+      runners: VillainInfected,-68.54461091031519,115.0,3.445220569140286,271.04974,5.999879
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - VillainInfected,79.0,156.0,20.0,0.0,0.0
+      attack:
+      - VillainInfected,79.0,156.0,24.0,0.0,0.0
+  VillainDoubleBeast:
+    enabled: true
+    time: 500
+    gameName: Villain
+    disableRain: true
+    max: 12
+    min: 3
+    worldTime: 0
+    gameType: DOUBLE_BEAST
+    gameSound1: NOTE_STICKS
+    gameSound2: ENDERDRAGON_GROWL
+    gameSound3: ORB_PICKUP
+    locations:
+      waiting: VillainDoubleBeast,-15.08645650928268,163.0,3.4336887012665325,268.9494,7.799941
+      selected-beast: VillainDoubleBeast,-15.299393740756242,167.0,3.5156710212067117,267.8992,3.4499257
+      beast: VillainDoubleBeast,-68.30259042482204,115.0,3.45398642385529,269.3999,5.549979
+      runners: VillainDoubleBeast,-68.30259042482204,115.0,3.45398642385529,269.3999,5.549979
+    signs: []
+    chests:
+    - armor
+    - attack
+    chests-location:
+      armor:
+      - VillainDoubleBeast,79.0,156.0,20.0,0.0,0.0
+      attack:
+      - VillainDoubleBeast,79.0,156.0,24.0,0.0,0.0

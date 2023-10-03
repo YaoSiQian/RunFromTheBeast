@@ -1,0 +1,13 @@
+welcome:
+  location: lobby, 0.469, 79, -5.457
+  lines:
+  - '&fWelcome to &e&lRun From The Beast'
+  - '&fThere are a total of &a&l{online} &fusers in &e&lRFTB'
+  - '&f'
+  - '&fwww.servername.com'
+  - '&u&lHAVE FUN!'
+tops:
+  location: lobby, 5.658, 76.200, -12.508
+  lines:
+  - '&eTop &uWins &7              &eTop &uKills'
+  - 'www.servername.com'

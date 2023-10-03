@@ -1,0 +1,42 @@
+#   _____                     _ _               _____  ______ _______ ____
+#  / ____|                   | (_)             |  __ \|  ____|__   __|  _ \
+# | |  __ _   _  __ _ _ __ __| |_  __ _ _ __   | |__) | |__     | |  | |_) |
+# | | |_ | | | |/ _` | '__/ _` | |/ _` | '_ \  |  _  /|  __|    | |  |  _ <
+# | |__| | |_| | (_| | | | (_| | | (_| | | | | | | \ \| |       | |  | |_) |
+#  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
+holograms:
+  checkpoint:
+    toggle: true
+    forPlayer:
+      toggle: true
+      value:
+      - '&aYour Checkpoint is here!'
+      - '&b&lRight-Click to back.'
+    forOthers:
+      toggle: false
+      value:
+      - '&a%player%''s checkpoint'
+      - '&b&lLocation'
+  tops:
+    topSize: 10
+    wins:
+      top:
+      - '&b&lAll-Time Wins'
+      - '&7%currentMode%'
+      format: '&e%position%. &7%player% &7- &e%grftb_wins%'
+      bot:
+      - '&a&lClick to update'
+    deaths:
+      top:
+      - '&b&lAll-Time Deaths'
+      - '&7%currentMode%'
+      format: '&e%position%. &7%player% &7- &e%grftb_deaths%'
+      bot:
+      - '&a&lClick to update'
+    kills:
+      top:
+      - '&b&lAll-Time Kills'
+      - '&7%currentMode%'
+      format: '&e%position%. &7%player% &7- &e%grftb_kills%'
+      bot:
+      - '&a&lClick to update'

@@ -1,0 +1,64 @@
+config-version: 9
+settings:
+  chunk:
+    threads: 2
+    players-per-thread: 50
+  panda-wire: true
+  brand-name: Bilibili
+  stop-decoding-itemstack-on-place: true
+  event:
+    fire-entity-explode-event: true
+    fire-player-move-event: true
+    fire-leaf-decay-event: true
+  faster-cannon-tracker: true
+  hide-projectiles-from-hidden-players: false
+  tile-entity-ticking-time: 20
+  enable-protocollib-shim: true
+  lag-compensated-potions: true
+  instant-interaction: false
+  disable-infinisleeper-thread-usage: false
+  kick-on-illegal-behavior: true
+  fix-eat-while-running: false
+  anti-enderpearl-glitch: true
+  use-tcp-fastopen: true
+  save-empty-scoreboard-teams: false
+  disabled-block-fall-animation: false
+  fast-operators: true
+  patch-protocollib: true
+  stop-notify-bungee: false
+  item-dirty-ticks: 20
+  smooth-potting: true
+  use-tcp-nodelay: true
+  enable-fastmath: true
+  tcp-fastopen-mode: 1
+  anti-crash: true
+  anti-malware: true
+  commands:
+    enable-version-command: true
+    enable-plugins-command: true
+    enable-reload-command: false
+  fixed-pools:
+    use-fixed-pools-for-explosions: false
+    size: 500
+world-settings:
+  default:
+    verbose: false
+    entity:
+      mob-ai: true
+      mob-sound: true
+      entity-activation: true
+      endermite-spawning: true
+    infinite-water-sources: true
+    disable-sponge-absorption: false
+    tick-enchantment-tables: true
+    block-operations: true
+    unload-chunks: true
+    physics:
+      disable-place: false
+    settings:
+      physics:
+        disable-update: false
+    explosions:
+      constant-radius: false
+      reduced-density-rays: true
+    enable-lava-to-cobblestone: true

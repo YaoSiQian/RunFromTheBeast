@@ -1,0 +1,8 @@
+Commands:
+  block-money:
+    command: /money
+    worlds:
+    - minigames
+    - minigames2
+    commands-to-execute:
+    - 'console: msg %player% &4[Error] &cYou can''t use that command on this world'
