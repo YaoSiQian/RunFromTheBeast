@@ -3,12 +3,12 @@ header-footer:
   enabled: true
   header:
   - ''
-  - '&e&lRun From The Beast'
+  - '&e&l虎口逃脱'
   - '&fwww.servername.com'
   - ''
   footer:
   - ''
-  - '&7You are playing with &e%online% players'
+  - '&7共 &e%online% 位玩家与你一起逃脱'
   - '&7                                                  &7'
   disable-in-worlds:
   - disabledworld
