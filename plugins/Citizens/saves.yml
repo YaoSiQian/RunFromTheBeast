@@ -9,7 +9,7 @@ npc:
     metadata:
       cached-skin-uuid-name: earthghg
       cached-skin-uuid: fd6f34c1-3bfa-43d0-8381-c6ff193f7ac9
-    name: "\xc2\xa7aGame Selector"
+    name: "\xc2\xa7a游戏选择"
     uuid: 192295d5-df38-4211-a408-3c0eaf9bf9d6
     traits:
       type: PLAYER
