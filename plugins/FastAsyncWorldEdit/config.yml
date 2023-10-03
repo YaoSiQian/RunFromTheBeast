@@ -7,7 +7,7 @@ commit: "https://github.com/boy0001/FastAsyncWorldedit/commit/b67f782"
 platform: "bukkit"
 # Options: cn, de, es, fr, it, nl, ru, tr
 # Create a PR to contribute a translation: https://github.com/boy0001/FastAsyncWorldedit/new/master/core/src/main/resources
-language: ''
+language: 'cn'
 # Enable or disable automatic updates
 #  - true = update automatically in the background
 #  - confirm = prompt an admin to confirm each update
