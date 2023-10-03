@@ -1,12 +1,12 @@
 General:
-  PluginTag: '&8[&2CommandNPC&8] &6'
-  ErrorTag: '&0[&cError&0] &c'
+  PluginTag: '&8[&2CNPC&8] &6'
+  ErrorTag: '&0[&c错误&0] &c'
 CmdNPC:
-  Cooldown: You cannot do this yet!
-  NoMoney: You do not have enough money for this!
-  Executed: Command Executed.
+  Cooldown: 你还不能这样做！
+  NoMoney: 你没有足够的钱！
+  Executed: 命令已执行。
 Commands:
-  NoPermission: You do not have permission for this!
+  NoPermission: 你没有权限！
   WrongArgs: Wrong Args. Use /commandnpc reload
   MustBeNumeric: The argument '%arg' must be numeric!
   AlreadyExists: A %type with that name already exists!
