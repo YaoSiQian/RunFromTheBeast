@@ -8,94 +8,94 @@ lobby:
   gameSelector:
     toggle: true
     item: PAPER
-    name: '&aGame Selector'
+    name: '&a游戏选择'
     lore:
     - '&ewww.servername.com'
     slot: 0
   Shop:
     toggle: true
     item: EMERALD
-    name: '&aRFTB Shop'
+    name: '&a商店'
     lore:
     - '&ewww.servername.com'
     slot: 4
   PlayerSettings:
     toggle: true
     item: FIREWORK
-    name: '&aYour settings'
+    name: '&a设置'
     lore:
     - '&ewww.servername.com'
     slot: 1
   LobbySelector:
     toggle: true
     item: BEACON
-    name: '&aLobby Selector'
+    name: '&a大厅选择'
     lore:
     - '&ewww.servername.com'
     slot: 7
   Exit:
     toggle: true
     item: RED_BED
-    name: '&aGo to the hub'
+    name: '&a返回大厅'
     lore:
     - '&ewww.servername.com'
     slot: 8
 InGame:
   RunnerKit:
     item: PAPER
-    name: '&aKit Selector (&lRunners&a)'
+    name: '&a套装选择（&l跑者&a）'
     lore:
     - '&ewww.servername.com'
     slot: 0
   BeastKit:
     item: PAPER
-    name: '&aKit Selector (&lBeast&a)'
+    name: '&a套装选择（&l野兽&a）'
     lore:
     - '&ewww.servername.com'
     slot: 0
   KillerKit:
     item: PAPER
-    name: '&aKit Selector (&lKiller&a)'
+    name: '&a套装选择（&l杀手&a）'
     lore:
     - '&ewww.servername.com'
     slot: 0
   Exit:
     item: RED_BED
-    name: '&aLeave'
+    name: '&a离开'
     lore:
     - '&ewww.servername.com'
     slot: 8
   backCheckpointItem:
     item: NETHER_STAR
-    name: '&b&lCheckpoint Back'
+    name: '&b&l存档之星'
     lore:
-    - '&eClick to back'
+    - '&e点击返回'
 playing:
   beast-inventory:
     Sword:
       item: DIAMOND_SWORD
-      name: '&eBeast Sword'
+      name: '&e野兽の剑'
       lore:
       - '&ewww.servername.com'
       slot: 0
   beast-armor:
     Helmet:
       item: DIAMOND_HELMET
-      name: '&eBeast Helmet'
+      name: '&e野兽の头盔'
       lore:
       - '&ewww.servername.com'
     Chestplate:
       item: DIAMOND_CHESTPLATE
-      name: '&eBeast Helmet'
+      name: '&e野兽の胸甲'
       lore:
       - '&ewww.servername.com'
     Leggings:
       item: DIAMOND_LEGGINGS
-      name: '&eBeast Leggings'
+      name: '&e野兽の护腿'
       lore:
       - '&ewww.servername.com'
     Boots:
       item: DIAMOND_BOOTS
-      name: '&eBeast Boots'
+      name: '&e野兽の靴子'
       lore:
       - '&ewww.servername.com'

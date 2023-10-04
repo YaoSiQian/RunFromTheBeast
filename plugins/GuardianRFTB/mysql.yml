@@ -11,5 +11,5 @@ mysql:
   port: 3306
   username: root
   password: password
-  database: rRFTB
+  database: rftb
   table: rData

@@ -10,33 +10,33 @@ holograms:
     forPlayer:
       toggle: true
       value:
-      - '&aYour Checkpoint is here!'
-      - '&b&lRight-Click to back.'
+      - '&a存档点'
+      - '&b&l右击返回'
     forOthers:
       toggle: false
       value:
-      - '&a%player%''s checkpoint'
-      - '&b&lLocation'
+      - '&a%player% 的存档点'
+      - '&b&l位置'
   tops:
     topSize: 10
     wins:
       top:
-      - '&b&lAll-Time Wins'
+      - '&b&l历史胜利'
       - '&7%currentMode%'
       format: '&e%position%. &7%player% &7- &e%grftb_wins%'
       bot:
-      - '&a&lClick to update'
+      - '&a&l点击更新'
     deaths:
       top:
-      - '&b&lAll-Time Deaths'
+      - '&b&l历史死亡'
       - '&7%currentMode%'
       format: '&e%position%. &7%player% &7- &e%grftb_deaths%'
       bot:
-      - '&a&lClick to update'
+      - '&a&l点击更新'
     kills:
       top:
-      - '&b&lAll-Time Kills'
+      - '&b&l历史击杀'
       - '&7%currentMode%'
       format: '&e%position%. &7%player% &7- &e%grftb_kills%'
       bot:
-      - '&a&lClick to update'
+      - '&a&l点击更新'

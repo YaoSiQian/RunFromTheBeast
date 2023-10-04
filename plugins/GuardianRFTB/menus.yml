@@ -6,41 +6,41 @@
 #  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
 menus:
   shop:
-    inventoryName: '&8Shop Menu'
+    inventoryName: '&8商店菜单'
     inventoryRows: 6
     inventorySounds:
     - ORB_PICKUP
     items:
       KitRunner:
-        name: '&aKits: Runner'
+        name: '&a跑者套装'
         slot: 21
         lore:
-        - '&eClick to open kit runners menu'
+        - '&e点击打开跑者套装菜单'
         item: MAP
         toggle: true
       KitKiller:
-        name: '&aKits: Killer'
+        name: '&a杀手套装'
         slot: 22
         lore:
-        - '&eClick to open kit killer menu'
+        - '&e点击打开杀手套装菜单'
         item: IRON_SWORD
         toggle: true
       KitBeast:
-        name: '&aKits: Beast'
+        name: '&a野兽套装'
         slot: 23
         lore:
-        - '&eClick to open kit beasts menu'
+        - '&e点击打开野兽套装菜单'
         item: FIREWORK
         toggle: true
       Boost:
-        name: '&aGame Booster'
+        name: '&a游戏加速器'
         slot: 31
         lore:
-        - '&eClick to open boost menu'
+        - '&e点击打开加速菜单'
         item: EXPERIENCE_BOTTLE
         toggle: true
   gameMain:
-    inventoryName: '&8Game Selector'
+    inventoryName: '&8游戏选择'
     inventoryRows: 6
     inventorySounds:
     - ORB_PICKUP
@@ -49,73 +49,73 @@ menus:
       gameType: CLASSIC
     items:
       Classic:
-        name: '&aMode: Classic'
+        name: '&a经典模式'
         slot: 21
         lore:
-        - '&eClick to see classic maps'
+        - '&e查看经典模式地图'
         item: LIME_BANNER
         toggle: true
       Infected:
-        name: '&aMode: Infected &b&lNEW!'
+        name: '&a感染模式 &b&l全新！'
         slot: 22
         lore:
-        - '&eClick to see infected maps'
+        - '&e查看感染模式地图'
         item: PINK_BANNER
         toggle: true
       Double:
-        name: '&aMode: Double Beast &b&lNEW!'
+        name: '&a双子野兽模式 &b&l全新！'
         slot: 23
         lore:
-        - '&eClick to see infected maps'
+        - '&e点击查看双手野兽模式地图'
         item: CYAN_BANNER
         toggle: true
       Killer:
-        name: '&aMode: Killer &c&lSOON'
+        name: '&a杀手模式 &c&l尽请期待'
         slot: 30
         lore:
-        - '&eClick to see infected maps'
+        - '&e'
         item: RED_BANNER
         toggle: true
       Island:
-        name: '&aMode: Island &c&lSOON'
+        name: '&a岛屿模式 &c&l尽请期待'
         slot: 31
         lore:
-        - '&eClick to see island maps'
+        - '&e'
         item: YELLOW_BANNER
         toggle: true
       IslandDouble:
-        name: '&aMode: Island Double &c&lSOON'
+        name: '&a岛屿双子模式 &c&l尽请期待'
         slot: 32
         lore:
-        - '&eClick to see island double maps'
+        - '&e'
         item: GREEN_BANNER
         toggle: true
       IslandKiller:
-        name: '&aMode: Island Killer &c&lSOON'
+        name: '&a岛屿杀手模式 &c&l尽请期待'
         slot: 40
         lore:
-        - '&eClick to see island killer maps'
+        - '&e'
         item: ORANGE_BANNER
         toggle: true
     directOpen:
       toggle: false
       gameType: CLASSIC
   kits:
-    inventoryName: '&8Kit Menu'
+    inventoryName: '&8套装菜单'
     inventoryRows: 3
     inventorySounds:
     - ORB_PICKUP
     blocked-item:
       toggle: true
       item: STAINED_GLASS_PANE:14
-      name: '&c&nKit: %kit_name%'
+      name: '&c&n套装：%kit_name%'
       lore:
       - ' '
-      - '&7Price: &6%price%'
+      - '&7价格：&6%price%'
       - ' '
       - '&ewww.servername.com'
   game:
-    inventoryName: '&8Games'
+    inventoryName: '&8游戏'
     inventoryRows: 3
     showPlayersInItem: true
     inventorySounds:
@@ -126,19 +126,19 @@ menus:
       playing: STAINED_CLAY:14
       ending: STAINED_CLAY:11
     item:
-      name: '&e&nMap: %map_name%'
+      name: '&e&n地图：%map_name%'
       lore:
       - ' '
-      - '&7Status: &b%map_status%'
-      - '&7Mode: &b%map_mode%'
-      - '&7Players: &b%map_on%/%map_max%'
+      - '&7状态：&b%map_status%'
+      - '&7模式：&b%map_mode%'
+      - '&7玩家：&b%map_on%/%map_max%'
       - ' '
       - '&ewww.servername.com'
 fill-inventory:
   gameMain:
     fillOne:
       item: STAINED_GLASS_PANE:3
-      name: '&e&lRFTB'
+      name: '&e&l虎口逃脱'
       lore:
       - '&fwww.servername.com'
       list:
@@ -158,7 +158,7 @@ fill-inventory:
         - 53
     fillTwo:
       item: STAINED_GLASS_PANE:15
-      name: '&e&lRFTB'
+      name: '&e&l虎口逃脱'
       lore:
       - '&fwww.servername.com'
       list:
@@ -186,7 +186,7 @@ fill-inventory:
   shop:
     fillOne:
       item: STAINED_GLASS_PANE:5
-      name: '&e&lRFTB'
+      name: '&e&l虎口逃脱'
       lore:
       - '&fwww.servername.com'
       list:
@@ -206,7 +206,7 @@ fill-inventory:
         - 53
     fillTwo:
       item: STAINED_GLASS_PANE:15
-      name: '&e&lRFTB'
+      name: '&e&l虎口逃脱'
       lore:
       - '&fwww.servername.com'
       list:

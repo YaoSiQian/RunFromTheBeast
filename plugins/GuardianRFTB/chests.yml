@@ -6,82 +6,82 @@
 #  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
 chests:
   armor:
-    inventoryName: '&8Armor Items'
+    inventoryName: '&8护具'
     inventoryRows: 6
     inventorySounds:
     - ORB_PICKUP
     items:
       helmet:
-        name: '&aDiamond Helmet'
+        name: '&a钻石头盔'
         slot: 21
         lore:
-        - '&8GuardianRFTB'
+        - '&8Guardian虎口逃脱'
         item: DIAMOND_HELMET
         enchantments:
         - UNBREAKING, 10
         - PROTECTION, 5
       chestplate:
-        name: '&aDiamond Chestplate'
+        name: '&a钻石胸甲'
         slot: 22
         lore:
-        - '&8GuardianRFTB'
+        - '&8Guardian虎口逃脱'
         item: DIAMOND_CHESTPLATE
         enchantments:
         - UNBREAKING, 2
         - PROTECTION, 4
       leggings:
-        name: '&aDiamond Leggings'
+        name: '&a钻石护腿'
         slot: 23
         lore:
-        - '&8GuardianRFTB'
+        - '&8Guardian虎口逃脱'
         item: DIAMOND_LEGGINGS
         enchantments:
         - UNBREAKING, 3
         - PROTECTION, 2
       boots:
-        name: '&aDiamond Boots'
+        name: '&a钻石靴子'
         slot: 31
         lore:
-        - '&8GuardianRFTB'
+        - '&8Guardian虎口逃脱'
         item: DIAMOND_BOOTS
         enchantments:
         - UNBREAKING, 3
         - PROTECTION, 1
   attack:
-    inventoryName: '&8Attack Items'
+    inventoryName: '&8武器'
     inventoryRows: 6
     inventorySounds:
     - ORB_PICKUP
     items:
       sword:
-        name: '&aDiamond Sword'
+        name: '&a钻石剑'
         slot: 21
         lore:
-        - '&7GuardianRFTB'
+        - '&7Guardian虎口逃脱'
         item: DIAMOND_SWORD
         enchantments:
         - FIRE_ASPECT, 2
         - SHARPNESS, 3
       bow:
-        name: '&aHardcore Bow'
+        name: '&a硬核弓'
         slot: 22
         lore:
-        - '&7GuardianRFTB'
+        - '&7Guardian虎口逃脱'
         item: BOW
         enchantments:
         - FLAME, 1
         - INFINITY, 1
       arrow:
-        name: '&aHardcore Arrow'
+        name: '&a硬核箭'
         slot: 23
         lore:
-        - '&7GuardianRFTB'
+        - '&7Guardian虎口逃脱'
         item: ARROW
         enchantments:
         - KB, 1
       potion:
-        name: '&aHardcore Potion'
+        name: '&a硬核药水'
         slot: 31
         lore:
-        - '&7GuardianRFTB'
+        - '&7Guardian虎口逃脱'
         item: POTION

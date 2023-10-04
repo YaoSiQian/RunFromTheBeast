@@ -8,38 +8,38 @@ runnerKits:
   default:
     KitInfo:
       item: BEACON
-      name: '&e&lDEFAULT'
+      name: '&e&l默认'
       kitID: '0'
       slot: 0
       price: 0
       lore:
-      - '&7Kit Runner Default'
+      - '&7跑者 经典涂装'
       - '&aClick to select'
     Armor:
       Helmet:
         item: DISABLE
-        name: '&eBeast Helmet'
+        name: '&e野兽の头盔'
         lore:
         - '&ewww.servername.com'
       Chestplate:
         item: DISABLE
-        name: '&eBeast Helmet'
+        name: '&e野兽の胸甲'
         lore:
         - '&ewww.servername.com'
       Leggings:
         item: DISABLE
-        name: '&eBeast Leggings'
+        name: '&e野兽の护腿'
         lore:
         - '&ewww.servername.com'
       Boots:
         item: DISABLE
-        name: '&eBeast Boots'
+        name: '&e野兽の靴子'
         lore:
         - '&ewww.servername.com'
     Inventory:
       Beacon:
         item: BEACON
-        name: '&bCheckpoint'
+        name: '&b存档点'
         slot: 0
         lore:
         - '&ewww.servername.com'
@@ -47,38 +47,38 @@ beastKits:
   default:
     KitInfo:
       item: DIAMOND_SWORD
-      name: '&e&lDEFAULT'
+      name: '&e&l默认'
       kitID: '0'
       slot: 0
       price: 0
       lore:
-      - '&7Kit Beast Default'
-      - '&aClick to select'
+      - '&7野兽 经典涂装'
+      - '&a点击选择'
     Armor:
       Helmet:
         item: DIAMOND_HELMET
-        name: '&eBeast Helmet'
+        name: '&e野兽の头盔'
         lore:
         - '&ewww.servername.com'
       Chestplate:
         item: DIAMOND_CHESTPLATE
-        name: '&eBeast Helmet'
+        name: '&e野兽の胸甲'
         lore:
         - '&ewww.servername.com'
       Leggings:
         item: DIAMOND_LEGGINGS
-        name: '&eBeast Leggings'
+        name: '&e野兽の护腿'
         lore:
         - '&ewww.servername.com'
       Boots:
         item: DIAMOND_BOOTS
-        name: '&eBeast Boots'
+        name: '&e野兽の靴子'
         lore:
         - '&ewww.servername.com'
     Inventory:
       Sword:
         item: DIAMOND_SWORD
-        name: '&eBeast Sword'
+        name: '&e野兽の剑'
         slot: 0
         lore:
         - '&ewww.servername.com'
@@ -86,38 +86,38 @@ killerKits:
   default:
     KitInfo:
       item: IRON_SWORD
-      name: '&e&lDEFAULT'
+      name: '&e&l默认'
       kitID: '0'
       price: 0
       slot: 0
       lore:
-      - '&7Kit Killer Default'
-      - '&aClick to select'
+      - '&7杀手 经典涂装'
+      - '&a点击选择'
     Armor:
       Helmet:
         item: DISABLED
-        name: '&eKiller Helmet'
+        name: '&e杀手の头盔'
         lore:
         - '&ewww.servername.com'
       Chestplate:
         item: DISABLED
-        name: '&eKiller Helmet'
+        name: '&e杀手の胸甲'
         lore:
         - '&ewww.servername.com'
       Leggings:
         item: DISABLED
-        name: '&eKiller Leggings'
+        name: '&e杀手の护腿'
         lore:
         - '&ewww.servername.com'
       Boots:
         item: DISABLED
-        name: '&eKiller Boots'
+        name: '&e杀手の靴子'
         lore:
         - '&ewww.servername.com'
     Inventory:
       Sword:
         item: IRON_SWORD
-        name: '&cKiller Sword'
+        name: '&c杀手の剑'
         slot: 0
         lore:
         - '&ewww.servername.com'

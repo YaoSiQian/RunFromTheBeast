@@ -6,7 +6,7 @@
 #  \_____|\__,_|\__,_|_|  \__,_|_|\__,_|_| |_| |_|  \_\_|       |_|  |____/
 settings:
   update-check: false
-  language: en
+  language: cn
   default-kits:
     toggle: true
     runner: 0
@@ -16,7 +16,7 @@ settings:
   - /leave
   - /quit
   - /salir
-  dateFormat: dd/MM/yyyy
+  dateFormat: yyyy/MM/dd
   perWorldTab: true
   leaveCancelTime: 3
   lobby:
@@ -58,18 +58,18 @@ settings:
   tags:
     runners:
       toggle: true
-      tag: '&b&lRUNNER'
+      tag: '&b&l跑者'
     beasts:
       toggle: true
-      tag: '&c&lBEAST'
+      tag: '&c&l野兽'
     killer:
       toggle: true
-      tag: '&a&lKILLER'
+      tag: '&a&l杀手'
   signs:
     line1: '&l%arena%'
     line2: '%gameStatus%'
     line3: '%on%/%max%'
-    line4: '&nClick to join'
+    line4: '&n点击加入'
   status:
     blocks:
       toggle: false
@@ -80,19 +80,19 @@ settings:
       InGame: STAINED_GLASS:14
       ending: STAINED_GLASS:0
     color:
-      preparing: '&5Config'
-      waiting: '&aWaiting'
-      starting: '&eStarting'
-      playing: '&cPlaying'
-      InGame: '&4InGame'
-      ending: '&9Restarting'
+      preparing: '&5准备中'
+      waiting: '&a等待中'
+      starting: '&e开始中'
+      playing: '&c游玩中'
+      InGame: '&4在游戏中'
+      ending: '&9重载中'
     names:
-      preparing: Preparing
-      waiting: Waiting
-      starting: Starting
-      playing: Playing
-      InGame: InGame
-      ending: Restarting
+      preparing: 准备中
+      waiting: 等待中
+      starting: 开始中
+      playing: 游玩中
+      InGame: 在游戏中
+      ending: 重载中
   game:
     show-game-buttons-on-end: false
     beastDistance:
@@ -131,27 +131,27 @@ settings:
         values:
         - <actionbar>&c<arena_beast> was selected!
     roles:
-      beast: Beast
-      beasts: Beasts
-      runner: Runner
-      runners: Runners
-      killer: Killer
-      killers: Killers
+      beast: 野兽
+      beasts: 野兽
+      runner: 跑者
+      runners: 跑者
+      killer: 杀手
+      killers: 杀手
     modes:
-      DOUBLE_BEAST: Double Beast
-      CLASSIC: Classic
-      INFECTED: Infected
-      KILLER: Killer Mode
-      ISLAND_OF_THE_BEAST: Island of the beast
-      ISLAND_OF_THE_BEAST_DOUBLE: Island of the beast Double
-      ISLAND_OF_THE_BEAST_KILLER: Island of the beast Killer
-      HISTORY_MODE: History Mode
+      DOUBLE_BEAST: 双子野兽
+      CLASSIC: 经典
+      INFECTED: 感染
+      KILLER: 杀手模式
+      ISLAND_OF_THE_BEAST: 野兽之岛
+      ISLAND_OF_THE_BEAST_DOUBLE: 双子野兽之岛
+      ISLAND_OF_THE_BEAST_KILLER: 野兽杀手之岛
+      HISTORY_MODE: 历史模式
   timer:
-    weeks: weeks
-    week: week
-    days: days
-    day: day
-    minutes: minutes
-    minute: minute
-    seconds: seconds
-    second: second
+    weeks: 周
+    week: 周
+    days: 天
+    day: 天
+    minutes: 分
+    minute: 分
+    seconds: 秒
+    second: 秒

@@ -9,96 +9,96 @@ scoreboards:
     toggle: false
     repeatTime: 5
     titles:
-    - '&e&lRFTB'
-    - '&f&lRFTB'
-    - '&e&lRFTB'
-    - '&f&lRFTB'
-    - '&e&lRFTB'
-    - '&f&lRFTB'
-    - '&f&lR&e&lFTB'
-    - '&f&lRF&e&lTB'
-    - '&e&lR&f&lFT&e&lB'
-    - '&e&lRF&f&lTB'
-    - '&e&lRFT&f&lB'
-    - '&e&lRFTB'
+    - '&e&l虎口逃脱'
+    - '&f&l虎口逃脱'
+    - '&e&l虎口逃脱'
+    - '&f&l虎口逃脱'
+    - '&e&l虎口逃脱'
+    - '&f&l虎口逃脱'
+    - '&f&l虎&e&l口逃脱'
+    - '&f&l虎口&e&l逃脱'
+    - '&e&l虎&f&l口逃&e&l虎口逃脱'
+    - '&e&l虎口&f&l逃脱'
+    - '&e&l虎口逃&f&l脱'
+    - '&e&l虎口逃脱'
   lobby:
     toggle: true
-    title: '&e&lRFTB'
+    title: '&e&l虎口逃脱'
     lines:
     - ' '
-    - 'User: &b<player_name>'
-    - 'Coins: &b<player_coins>'
-    - 'Wins: &b<player_wins>'
+    - '名称：&b<player_name>'
+    - '硬币：&b<player_coins>'
+    - '胜数：&b<player_wins>'
     - ' '
-    - 'Kits: &b<player_kits>/1'
+    - '套装：&b<player_kits>/1'
     - ' '
-    - 'Online: &b<server_online>'
+    - '玩家：&b<server_online>'
     - ' '
     - '&ewww.servername.com'
   waiting:
-    title: '&e&lRFTB'
+    title: '&e&l虎口逃脱'
     lines:
     - '&7<arena_mode> | <timeFormat>'
     - ' '
-    - 'Map: &a<arena_name>'
-    - 'Players: &a<arena_online>/<arena_max>'
+    - '地图：&a<arena_name>'
+    - '玩家：&a<arena_online>/<arena_max>'
     - ' '
-    - <isWaiting>Waiting for
-    - '&a<isWaiting><arena_need> &fplayers to start'
-    - '<isSelecting>Beast: &a<arena_time_number>'
-    - '<isStarting>Start: &a<arena_time_number> &f<arena_time_text>.'
-    - '<BeastAppear>Spawn: &a<arena_time_number>&f!'
+    - <isWaiting>等待
+    - '&a<isWaiting><arena_need> &f个玩家开始游戏'
+    - '<isSelecting>野兽：&a<arena_time_number>'
+    - '<isStarting>开始：&a<arena_time_number> &f<arena_time_text>。'
+    - '<BeastAppear>释放：&a<arena_time_number>&f!'
     - ' '
     - '&ewww.servername.com'
   playing:
-    title: '&e&lRFTB'
+    title: '&e&l虎口逃脱'
     lines:
     - '&7<timeFormat>'
     - ' '
-    - 'Runners Left: &a<arena_runners>'
-    - 'Time Left: &a<arena_timeLeft>'
+    - '剩余跑者：&a<arena_runners>'
+    - '剩余时间：&a<arena_timeLeft>'
     - ' '
-    - 'Map: &a<arena_name>'
-    - 'Role: &a<player_role>'
+    - '地图：&a<arena_name>'
+    - '角色：&a<player_role>'
     - ' '
-    - 'Beast: &a<arena_beast>'
-    - 'Mode: &c<arena_mode>'
+    - '野兽：&a<arena_beast>'
+    - '模式：&c<arena_mode>'
     - ' '
     - '&ewww.servername.com'
   beastWin:
     forBeast:
-      title: '&e&lRFTB'
+      title: '&e&l虎口逃脱'
       lines:
       - '&7<timeFormat>'
       - ' '
-      - You are the best beast
-      - '&aWell played&f!'
+      - 你干倒了所有人
+      - '&a干得好&f！'
       - ' '
       - '&ewww.servername.com'
     forRunners:
-      title: '&e&lRFTB'
+      title: '&e&l虎口逃脱'
       lines:
       - '&7<timeFormat>'
       - ' '
-      - Well.. you tried
+      - 嗯…你起码努力过了
       - ' '
       - '&ewww.servername.com'
   runnersWin:
     forBeast:
-      title: '&e&lRFTB'
+      title: '&e&l虎口逃脱'
       lines:
       - '&7<timeFormat>'
       - ' '
-      - Bad played!
-      - '&cGood luck for next game&f!'
+      - 没干完…
+      - '&c祝你下一局好运&f！'
       - ' '
       - '&ewww.servername.com'
     forRunners:
-      title: '&e&lRFTB'
+      title: '&e&l虎口逃脱'
       lines:
       - '&7<timeFormat>'
       - ' '
-      - Runners Win!
-      - '&aWell played!'
+      - 你逃出虎口了
+      - '&a好好好&f！'
       - ' '
       - '&ewww.servername.com'
