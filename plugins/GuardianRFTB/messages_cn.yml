@@ -116,7 +116,7 @@ messages:
         use: '&a你已被传送到最后一个存档点。'
         already: '&7你已经有一个正在使用的存档点。'
   lobby:
-    actionBar: '&eplay.servername.com'
+    actionBar: '&ewww.servername.com'
     bossBar: '&b你正在游玩&e&n虎口逃脱&b。'
   others:
     buttons:

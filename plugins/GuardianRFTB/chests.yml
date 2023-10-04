@@ -15,7 +15,7 @@ chests:
         name: '&a钻石头盔'
         slot: 21
         lore:
-        - '&8Guardian虎口逃脱'
+        - '&8虎口逃脱'
         item: DIAMOND_HELMET
         enchantments:
         - UNBREAKING, 10
@@ -24,7 +24,7 @@ chests:
         name: '&a钻石胸甲'
         slot: 22
         lore:
-        - '&8Guardian虎口逃脱'
+        - '&8虎口逃脱'
         item: DIAMOND_CHESTPLATE
         enchantments:
         - UNBREAKING, 2
@@ -33,7 +33,7 @@ chests:
         name: '&a钻石护腿'
         slot: 23
         lore:
-        - '&8Guardian虎口逃脱'
+        - '&8虎口逃脱'
         item: DIAMOND_LEGGINGS
         enchantments:
         - UNBREAKING, 3
@@ -42,7 +42,7 @@ chests:
         name: '&a钻石靴子'
         slot: 31
         lore:
-        - '&8Guardian虎口逃脱'
+        - '&8虎口逃脱'
         item: DIAMOND_BOOTS
         enchantments:
         - UNBREAKING, 3
@@ -57,7 +57,7 @@ chests:
         name: '&a钻石剑'
         slot: 21
         lore:
-        - '&7Guardian虎口逃脱'
+        - '&7虎口逃脱'
         item: DIAMOND_SWORD
         enchantments:
         - FIRE_ASPECT, 2
@@ -66,7 +66,7 @@ chests:
         name: '&a硬核弓'
         slot: 22
         lore:
-        - '&7Guardian虎口逃脱'
+        - '&7虎口逃脱'
         item: BOW
         enchantments:
         - FLAME, 1
@@ -75,7 +75,7 @@ chests:
         name: '&a硬核箭'
         slot: 23
         lore:
-        - '&7Guardian虎口逃脱'
+        - '&7虎口逃脱'
         item: ARROW
         enchantments:
         - KB, 1
@@ -83,5 +83,5 @@ chests:
         name: '&a硬核药水'
         slot: 31
         lore:
-        - '&7Guardian虎口逃脱'
+        - '&7虎口逃脱'
         item: POTION

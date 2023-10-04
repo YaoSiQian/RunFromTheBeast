@@ -114,7 +114,7 @@ messages:
         use: '&aYou has been teleported to your last checkpoint.'
         already: '&7You already has an checkpoint in use.'
   lobby:
-    actionBar: '&eplay.servername.com'
+    actionBar: '&ewww.servername.com'
     bossBar: '&bYou are playing on &e&nServerName Network&b.'
   others:
     buttons:
