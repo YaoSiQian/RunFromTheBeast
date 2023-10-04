@@ -1,0 +1,7 @@
+{
+  "type": "minecraft/java",
+  "startCommand": "{{java}} -jar WindSpigot-2.1.2.jar -nogui",
+  "stopCommand": "stop",
+  "ie": "utf-8",
+  "oe": "utf-8"
+}
